@@ -1,0 +1,16 @@
+[
+    {
+      "title": "mixes",
+      "description": "mix series entries and tracklistings",
+      "sources": ["MixesDB"],
+      "tags": ["music"],
+      "url": "https://github.com/club-cooking/mixes"
+    },
+    {
+      "title": "ldn-venues",
+      "description": "clubs, events and line-ups in London",
+      "sources": ["Resident Advisor"],
+      "tags": ["music", "clubs"],
+      "url": "https://github.com/club-cooking/ldn-venues"
+    }
+  ]
