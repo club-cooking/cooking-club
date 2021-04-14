@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 ---
 {% set maxPosts = collections.posts.length | min(3) %}
-<h1>latest {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}</h1>
+<h1>latest</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
