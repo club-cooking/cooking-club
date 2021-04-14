@@ -1,8 +1,5 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: home
-  order: 1
 ---
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>latest {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}</h1>
