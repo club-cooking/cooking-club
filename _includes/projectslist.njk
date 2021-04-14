@@ -1,0 +1,11 @@
+<ol reversed class="postlist" style="counter-reset: start-from {{ (list.length) + 1 }}">
+{% for item in list | reverse %}
+  <li class="postlist-item{% if item.url == url %} postlist-item-active{% endif %}">
+    <a href="{{ item.url | url }}" class="postlist-link">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.url }}</code>{% endif %}</a>
+    {% for tag in item.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ol>
