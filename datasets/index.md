@@ -1,10 +1,10 @@
 ---
 layout: layouts/page.njk
-title: about
+title: datasets
 templateClass: tmpl-page
 eleventyNavigation:
-  key: about
-  order: 4
+  key: datasets
+  order: 3
 ---
 
 ...
