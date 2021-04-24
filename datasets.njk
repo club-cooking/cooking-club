@@ -1,11 +1,13 @@
 ---
 layout: layouts/home.njk
+permalink: /datasets/
 eleventyNavigation:
   key: datasets
   order: 3
 ---
+{% set maxPosts = collections.datasets.length %}
 <h1>datasets</h1>
 
-{% set list = datasets %}
-{% include "projectslist.njk" %}
-
+{% set postslist = collections.datasets %}
+{% set postslistCounter = collections.datasets | length %}
+{% include "postslist.njk" %}

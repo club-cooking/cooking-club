@@ -1,10 +1,13 @@
 ---
 layout: layouts/home.njk
+permalink: /software/
 eleventyNavigation:
   key: software
-  order: 4
+  order: 3
 ---
+{% set maxPosts = collections.software.length %}
 <h1>software</h1>
 
-{% set list = software %}
-{% include "projectslist.njk" %}
+{% set postslist = collections.software %}
+{% set postslistCounter = collections.software | length %}
+{% include "postslist.njk" %}
