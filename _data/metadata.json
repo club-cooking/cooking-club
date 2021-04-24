@@ -2,9 +2,9 @@
   "title": "club cooking",
   "url": "https://example.com/",
   "language": "en",
-  "description": "A community-focused data publication.",
+  "description": "A community-oriented data publication.",
   "feed": {
-    "subtitle": "A community-focused data publication.",
+    "subtitle": "A community-oriented data publication.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
