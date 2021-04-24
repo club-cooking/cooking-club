@@ -2,6 +2,7 @@
 title: This is my first dataset.
 description: This is a post on My Blog about agile frameworks.
 date: 2020-04-01
+tags: test
 layout: layouts/post.njk
 ---
 
