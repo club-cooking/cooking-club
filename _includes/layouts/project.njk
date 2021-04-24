@@ -7,8 +7,9 @@ templateClass: tmpl-project
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList -%}
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<span class="post-tag">{{ tag }}</span>
+<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
+<a href="{{ link }}" class="post-tag">repo</a>
 
 {{ content | safe }}
 

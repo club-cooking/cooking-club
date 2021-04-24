@@ -1,7 +1,10 @@
 ---
-title: This is my first dataset.
-description: This is a post on My Blog about agile frameworks.
+title: london venues
+description: bla
 date: 2020-04-01
+link: https://github.com/club-cooking/ldn-venues
+tags:
+	- music
 layout: layouts/project.njk
 ---
 
