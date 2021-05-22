@@ -2,7 +2,7 @@
 title: ahhray
 description: bla
 date: 2020-04-01
-link: https://github.com/club-cooking/ahhray
+repo: https://github.com/club-cooking/ahhray
 tags:
   - music
 layout: layouts/project.njk

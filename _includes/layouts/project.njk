@@ -9,7 +9,12 @@ templateClass: tmpl-project
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
-<a href="{{ link }}" class="post-tag">repo</a>
+{%- if repo %}
+<a href="{{ repo }}" class="project-tag">code</a>
+{%- endif %}
+{%- if datasette %}
+<a href="{{ datasette }}" class="project-tag">data</a>
+{%- endif %}
 
 {{ content | safe }}
 
