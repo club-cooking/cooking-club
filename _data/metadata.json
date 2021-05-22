@@ -1,21 +1,21 @@
 {
   "title": "club cooking",
-  "url": "https://example.com/",
+  "url": "https://clubcooking.xyz",
   "language": "en",
-  "description": "A community-oriented data publication.",
+  "description": "An infrequent dataset and software publication, built on open-source and community.",
   "feed": {
-    "subtitle": "A community-oriented data publication.",
+    "subtitle": "An infrequent dataset and software publication, built on open-source and community.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://clubcooking.xyz"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://clubcooking.xyz/feed/feed.json"
   },
   "author": {
     "name": "club cooking",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "email": "cloudsixninesix@gmail.com",
+    "url": "https://clubcooking.xyz/about-me/"
   }
 }

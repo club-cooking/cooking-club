@@ -7,6 +7,6 @@ eleventyNavigation:
   order: 5
 ---
 
-A community-oriented dataset and software publication, focused on open-source.
+An infrequent dataset and software publication, built on open-source and community.
 
 [alex](https://twitter.com/AlexBaiden1) | [ewen](https://twitter.com/ewen_)
