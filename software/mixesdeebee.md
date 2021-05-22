@@ -7,4 +7,4 @@ tags: ["mixesDB", "track-lists", "r"]
 layout: layouts/project.njk
 ---
 
-A web scraper for [MixesDB](https://www.mixesdb.com), written in R.
+A [MixesDB](https://www.mixesdb.com) web scraper, written in R. See the `code` tab for more info.
