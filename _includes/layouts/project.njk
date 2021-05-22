@@ -9,14 +9,15 @@ templateClass: tmpl-project
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
+
+{{ content | safe }}
+
 {%- if repo %}
 <a href="{{ repo }}" class="project-tag">code</a>
 {%- endif %}
 {%- if datasette %}
 <a href="{{ datasette }}" class="project-tag">data</a>
 {%- endif %}
-
-{{ content | safe }}
 
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}

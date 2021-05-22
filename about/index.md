@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 5
 ---
 
-...
+A dataset and software editorial, focused on open-source publication.
