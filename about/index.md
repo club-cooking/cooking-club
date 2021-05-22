@@ -7,4 +7,6 @@ eleventyNavigation:
   order: 5
 ---
 
-A dataset and software editorial, focused on open-source publication.
+A community-oriented dataset and software publication, focused on open-source.
+
+[alex](https://twitter.com/AlexBaiden1) | [ewen](https://twitter.com/ewen_)
