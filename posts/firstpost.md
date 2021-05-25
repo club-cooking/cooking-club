@@ -1,16 +1,34 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
-tags:
-  - another tag
+title: who gets to play at fabric?
+description: fabric bookings, by the numbers.
+date: 2021-05-25
+tags: ["fabric", "london", "bookings"]
 layout: layouts/post.njk
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Not much clubbing has been going on for over a year now &mdash; in the UK, at least. In this downtime, there have been some important and necessary examinations of how the electronic music industry is in need of a reset. For example, R.O.S.H. published a couple of vital projects ([A LETTER TO RA](http://itsrosh.nfshost.com/letter/) and [MEASURED](http://bit.do/MEASURED)) in 2020 that centered on failings of the UK music press in covering artists from marginalised groups, amounting to structural racism. What questions can be asked of the venues that, today, provide the primary source of income to most working electronic musicians and DJs?
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+[Fabric](https://www.fabriclondon.com/) is one of the most famous club venues in the world. It opened it's doors in 1999, and has hosted 20+ years of club nights and live gigs from it's permanent Farringdon home (bar a temporary closure in 2016 following [a failed Islington borough council attempt to permanently shutter it](http://collateral.vuelio.uk.com/RemoteStorage/Islington/Releases/6380/Fabric%20-%20Main%20Review.pdf)).
 
-## Section Header
+<div id="observablehq-viewof-dateRange-0616a36b"></div><br>
+<div id="observablehq-viewof-selectedDays-0616a36b"></div><br>
+<div id="observablehq-viewof-minSets-0616a36b"></div><br>
+<div id="observablehq-viewof-incResidents-0616a36b"></div><br>
+<div id="observablehq-title-0616a36b"></div><br>
+<div id="observablehq-bubbleChart-0616a36b"></div><br>
+<div id="observablehq-viewof-order-0616a36b"></div><br>
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/f67752152b2d820e.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof dateRange") return new Inspector(document.querySelector("#observablehq-viewof-dateRange-0616a36b"));
+  if (name === "viewof selectedDays") return new Inspector(document.querySelector("#observablehq-viewof-selectedDays-0616a36b"));
+  if (name === "viewof minSets") return new Inspector(document.querySelector("#observablehq-viewof-minSets-0616a36b"));
+  if (name === "viewof incResidents") return new Inspector(document.querySelector("#observablehq-viewof-incResidents-0616a36b"));
+  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-0616a36b"));
+  if (name === "bubbleChart") return new Inspector(document.querySelector("#observablehq-bubbleChart-0616a36b"));
+  if (name === "viewof order") return new Inspector(document.querySelector("#observablehq-viewof-order-0616a36b"));
+  return ["data","renderBubbleChartContainer"].includes(name);
+});
+</script>
