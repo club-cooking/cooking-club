@@ -3,7 +3,7 @@ title: london club nights
 description: London club nights, 2014-2019
 date: 2021-05-22
 repo: https://github.com/club-cooking/ldn-club-nights
-datasette: https://club-cooking-datasette-3ec5cj2jvq-nw.a.run.app/ldn-club-nights
+data: https://flatgithub.com/club-cooking/ldn-club-nights
 tags: ["clubs", "london", "lineups"]
 layout: layouts/project.njk
 ---

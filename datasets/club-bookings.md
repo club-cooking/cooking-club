@@ -3,7 +3,7 @@ title: club bookings
 description: full artist booking histories for selected clubs
 date: 2021-05-26
 repo: https://github.com/club-cooking/club-bookings
-datasette: https://club-cooking-datasette-3ec5cj2jvq-nw.a.run.app/club-bookings
+data: https://flatgithub.com/club-cooking/club-bookings
 tags: ["clubs", "bookings", "lineups"]
 layout: layouts/project.njk
 ---
