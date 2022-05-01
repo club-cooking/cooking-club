@@ -2,9 +2,9 @@
   "title": "club cooking",
   "url": "https://clubcooking.xyz",
   "language": "en",
-  "description": "An infrequent dataset and software publication, built on open-source and community.",
+  "description": "An infrequent dataset and software publication, built and maintained in public with open-source tools.",
   "feed": {
-    "subtitle": "An infrequent dataset and software publication, built on open-source and community.",
+    "subtitle": "An infrequent dataset and software publication.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://clubcooking.xyz"
